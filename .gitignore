@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (large audio files)
+data/samples/*.mp3
+data/samples/*.wav
+data/samples/*.ogg
+data/samples/*.flac
+data/samples/*.OGG
+!data/samples/.gitkeep
+
+# Results (generated files)
+results/*.csv
+results/*.png
+results/*.jpg
+results/*.html
+results/*.json
+!results/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# BirdNET model cache
+*.tflite
+
+# Logs
+*.log
+
